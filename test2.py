@@ -5,6 +5,7 @@ r = 0
 for idx in range(0,6):
     if i>arr[idx]:
         r+=(i-arr[idx])*rat[idx]
-        #print((i-arr[idx])*rat[idx])
+        print((i-arr[idx])*rat[idx])
         i=arr[idx]
 print (r)
+
