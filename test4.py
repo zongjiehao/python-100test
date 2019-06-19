@@ -9,4 +9,4 @@ if 0 < month <= 12:
 if (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0)):
     if month > 2:
         current_day += 1
-print(current_day)
+print('it is the %dth day.'% current_day)
