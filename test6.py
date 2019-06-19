@@ -1,3 +1,6 @@
+# F0 = 0     (n=0)
+# F1 = 1    (n=1)
+# Fn = F[n-1]+ F[n-2](n=>2)
 def fib(n):
     if n==0:
         return 0
