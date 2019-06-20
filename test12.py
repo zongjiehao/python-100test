@@ -5,8 +5,8 @@ from math import sqrt
 
 count = 0
 flag = 1
-for i in range(101, 201):
-    mid = int(sqrt(i + 1))
+for i in range(101, 20100):
+    mid = int(sqrt(i))
     for j in range(2, mid+1):
         if (i % j == 0):
             flag = 0
